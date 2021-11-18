@@ -6,25 +6,32 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Programer",
+    cardImage: "assets/images/experience-page/fuboru.jpg",
+    place: "PT Fuboru Indonesia, Sidoarjo",
+    time: "(Jul, 2020 - present)",
+    desp: "<li>Serve requests for program creation/modification according instructions of head division.</li> <li>Implementation of the New System to the User.</li> <li>Maintain the (hardware & software).</li> <li>Make sure system is rumming well.</li> <li>Reporting unresolved errors to the head diivision. </li> <li>Make daily reports to the head of IT.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Programer",
+    cardImage: "assets/images/experience-page/vpoint.png",
+    place: "PT VPoint Media Solusindo, Surabaya",
+    time: "(Feb, 2015 - April, 2020)",
+    desp: "<li>Worked with Visual Studio 2008, 2017 and Android Studio.</li><li>Make sure the application is running well.</li><li>Modification existing application according instructions of project manager.</li> <li>Resolve bug at the system.</li><li>Make sure the customer have no issue at using the application.</li><li>Helping supporting teams if the project has beed complete.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Application Engineer",
+    cardImage: "assets/images/experience-page/dkp.png",
+    place: "PT Duta Kalingga Pratama, Jakarta",
+    time: "(Jan, 2014 - Jan, 2015)",
+    desp:"<li>Worked with Visual Studio 2010 for creating desktop and windows mobile application.</li><li>Creating new / Modification existing software that given by the division head.</li><li>Worked on the project “RFID Data Monitoring in Production“ for some customer.</li>",
+  },
+  {
+    title: "Barista",
+    cardImage: "assets/images/experience-page/brewbox.jpg",
+    place: "Brewbox ID, Jakarta",
+    time: "( 2013 - Jan, 2014)",
+    desp:"<li>Just make a good coffee.</li><li>Make sure coffee bean have no issue.(like a bug xD)</li>",
   },
 ];
 
